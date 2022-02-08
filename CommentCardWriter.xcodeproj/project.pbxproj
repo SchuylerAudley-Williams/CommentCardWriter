@@ -14,6 +14,7 @@
 		3B829A0927B2826B0038381A /* CommentCardWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B829A0827B2826B0038381A /* CommentCardWriterTests.swift */; };
 		3B829A1327B2826B0038381A /* CommentCardWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B829A1227B2826B0038381A /* CommentCardWriterUITests.swift */; };
 		3B829A1527B2826B0038381A /* CommentCardWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B829A1427B2826B0038381A /* CommentCardWriterUITestsLaunchTests.swift */; };
+		3B829A2227B282EB0038381A /* CommentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B829A2127B282EB0038381A /* CommentCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B829A0E27B2826B0038381A /* CommentCardWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B829A1227B2826B0038381A /* CommentCardWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITests.swift; sourceTree = "<group>"; };
 		3B829A1427B2826B0038381A /* CommentCardWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B829A2127B282EB0038381A /* CommentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				3B8299F727B282680038381A /* CommentCardWriterApp.swift */,
 				3B8299F927B282680038381A /* ContentView.swift */,
 				3B8299FB27B2826B0038381A /* Assets.xcassets */,
+				3B829A2127B282EB0038381A /* CommentCard.swift */,
 				3B8299FD27B2826B0038381A /* Preview Content */,
 			);
 			path = CommentCardWriter;
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8299FA27B282680038381A /* ContentView.swift in Sources */,
+				3B829A2227B282EB0038381A /* CommentCard.swift in Sources */,
 				3B8299F827B282680038381A /* CommentCardWriterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

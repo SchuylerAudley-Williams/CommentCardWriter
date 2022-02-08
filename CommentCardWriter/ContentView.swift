@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var commentCard = CommentCard()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Toggle(isOn: Binding(commentCard.isHappy))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(commentCard: CommentCard())
     }
 }
