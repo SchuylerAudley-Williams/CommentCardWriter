@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    var commentCard = CommentCard()
+    @StateObject private var commentCard = CommentCard()
     
     var body: some View {
         VStack {
-            Toggle(isOn: Binding(commentCard.isHappy))
+            Section {
+                Toggle("Are you happy?", isOn: $commentCard.isHappy)
+                Toggle("Is your attainment high?", isOn: $commentCard.hasHighAttainment)
+                Toggle("Do you need to improve?", isOn: $commentCard.needsImprovement)
+            }
+            Text(commentCard.comment)
+            Spacer()
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(commentCard: CommentCard())
+        ContentView()
     }
 }

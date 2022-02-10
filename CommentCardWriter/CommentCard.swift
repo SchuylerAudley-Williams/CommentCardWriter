@@ -7,18 +7,11 @@
 
 import Foundation
 
-class CommentCard {
+class CommentCard: ObservableObject {
     var isHappy: Bool
     var needsImprovement: Bool
     var hasHighAttainment: Bool
-    
-    init(){
-        isHappy = true
-        needsImprovement = false
-        hasHighAttainment = true
-    }
-    
-    func write() -> String {
+    var comment: String {
         var happiness: String
         var improvement: String
         var attainment: String
@@ -42,5 +35,11 @@ class CommentCard {
         }
         
         return "Overall i am \(happiness), i believe my attainment is \(attainment). \(improvement)"
+    }
+    
+    init(){
+        isHappy = true
+        needsImprovement = false
+        hasHighAttainment = true
     }
 }
