@@ -16,25 +16,25 @@ class CommentCard: ObservableObject {
         var improvement: String
         var attainment: String
         
-        if isHappy {
+        if self.isHappy {
             happiness = "happy"
         } else {
             happiness = "unhappy"
         }
         
-        if needsImprovement {
+        if self.needsImprovement {
             improvement = "I need to improve in this subject."
         } else {
             improvement = "I do not need to improve much."
         }
         
-        if hasHighAttainment {
+        if self.hasHighAttainment {
             attainment = "good"
         } else {
             attainment = "bad"
         }
         
-        return "Overall i am \(happiness), i believe my attainment is \(attainment). \(improvement)"
+        return "overall i am \(happiness), i believe my attainment is \(attainment). \(improvement)"
     }
     
     init(){
