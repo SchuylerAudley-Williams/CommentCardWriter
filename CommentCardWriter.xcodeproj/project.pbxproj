@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B00E85627CD1CC9005DAEE2 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00E85527CD1CC9005DAEE2 /* FileManager.swift */; };
+		3B00E85827CD1CF6005DAEE2 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B00E85727CD1CF6005DAEE2 /* StateController.swift */; };
 		3B8299F827B282680038381A /* CommentCardWriterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8299F727B282680038381A /* CommentCardWriterApp.swift */; };
 		3B8299FA27B282680038381A /* writeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8299F927B282680038381A /* writeView.swift */; };
 		3B8299FC27B2826B0038381A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8299FB27B2826B0038381A /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B00E85527CD1CC9005DAEE2 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		3B00E85727CD1CF6005DAEE2 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		3B8299F427B282680038381A /* CommentCardWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentCardWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8299F727B282680038381A /* CommentCardWriterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterApp.swift; sourceTree = "<group>"; };
 		3B8299F927B282680038381A /* writeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				3B8299FB27B2826B0038381A /* Assets.xcassets */,
 				3B829A2127B282EB0038381A /* CommentCard.swift */,
 				3B8299FD27B2826B0038381A /* Preview Content */,
+				3B00E85527CD1CC9005DAEE2 /* FileManager.swift */,
+				3B00E85727CD1CF6005DAEE2 /* StateController.swift */,
 			);
 			path = CommentCardWriter;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B991FA627C6CD5000664E54 /* ExportView.swift in Sources */,
+				3B00E85827CD1CF6005DAEE2 /* StateController.swift in Sources */,
 				3B991FA827C6CD7100664E54 /* RootTabView.swift in Sources */,
 				3B8299FA27B282680038381A /* writeView.swift in Sources */,
+				3B00E85627CD1CC9005DAEE2 /* FileManager.swift in Sources */,
 				3B829A2227B282EB0038381A /* CommentCard.swift in Sources */,
 				3B8299F827B282680038381A /* CommentCardWriterApp.swift in Sources */,
 			);

@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ExportView: View {
+    @EnvironmentObject var state: StateController
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let comments = state.comments
+        
+        VStack {
+            Text(comments)
+        }
     }
 }
 
