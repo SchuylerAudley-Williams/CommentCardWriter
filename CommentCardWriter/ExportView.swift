@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ExportView: View {
     @EnvironmentObject var state: StateController
+    @ObservedObject var commentCard = CommentCard()
+    
+    func copy(toCopy: String) {
+        let pasteboard = UIPasteboard.general
+        pasteboard.string = toCopy
+    }
     
     var body: some View {
-        let comments = state.comments
         
         VStack {
-            Text(comments)
-        }
+            Button("Copy to Clipboard", action: copy(toCopy: commentCard.commment))
     }
 }
 

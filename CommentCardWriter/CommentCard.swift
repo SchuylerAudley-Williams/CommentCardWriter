@@ -11,6 +11,7 @@ class CommentCard: ObservableObject {
     var isHappy: Bool
     var needsImprovement: Bool
     var hasHighAttainment: Bool
+    var commment: String = ""
 
     
     init(){
